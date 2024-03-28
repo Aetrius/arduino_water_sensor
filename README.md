@@ -2,7 +2,17 @@
 
 DIY Water Sensor Project for the techy folk. Utilizes fairly cheap equipment that allows you to replicate this project multiple times for multiple purposes.
 
-This project utilizes the resistance the water creates on the water sensor to detect how high the water has ran up the sensor. You can generally look at the output and determine less than 10 as being nearly zero, while the water resistance can be upwards of 500 when the water level is high.
+This project utilizes the resistance the water creates on the water sensor to detect how high the water has ran up the sensor. You can generally look at the output and determine less than 10 as being nearly zero, while the water resistance can be upwards of 500 when the water level is high. This project can be powered by the battery OR powered via USB-C OR both USB-C plus battery for a battery backup.
+
+## Hardware Required
+- WeMos D1 Mini V4.0.0 Type-C USB WiFi
+- USB Type C Wall Charger Plug 5V 1A
+- 5V 1A TP4056 Charging Module Type-C USB 18650 Lithium Battery Charger Board with Protection (Type-C USB)
+- Rain Water Level Sensor Module Depth Detection Liquid Surface Height for Arduino Raspberry Pi
+- 3.7V 5200mah Rechargeable Battery Pack Lithium Ion Batteries with JST-2P
+- JST Connector 2 Pin with Silicone Wire Cable 150mm
+- Breadboards + Cables 
+- Soldering Tools & Equipment
 
 ## Features
 
@@ -25,6 +35,7 @@ This project utilizes the resistance the water creates on the water sensor to de
 `MQTT_USER` - If applicable, username of the MQTT user account to publish data to the server. Leave an empty string or placeholder text if the user is not required.
  
 `MQTT_PASSWORD` - If applicable, the password of the MQTT user account to publish data to the server. Leave an empty string or placeholder text if the user is not required.
+
 
 ## Installation
 
