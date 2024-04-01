@@ -22,6 +22,19 @@ This project utilizes the resistance the water creates on the water sensor to de
 - Periodic [30s] polling to publish to MQTT Server.
 - Built-in docker-compose scripting to build Prometheus/Grafana stack.
 
+## Wiring Setup
+In the wiring diagram below, we can see the following requirements:
+Wemos D1 Mini (D2) RST == Wemos D1 Mini (D2) GPIO 16
+Wemos D1 Mini (D2) GPIO 12 == Water Sensor (Positive)
+Wemos D1 Mini (D2) Power (3.3V) == USB-C Charger B+ (outside power pin)
+Wemos D1 Mini (D2) (Ground) == Water Sensor (Ground)
+Wemos D1 Mini (D2) (Ground) == USB-C Charger (Outside Ground pin)
+USB-C Charger B+ (inside power pin) == Battery Power Pin
+USB-C Charger B- (inside ground pin) == Battery Ground Pin
+![Water Sensor](./images/water-sensor.png)
+
+
+
 ## Environment - Secret Variables
 
 `WIFI_SSID` - WIFI network name for your wireless network.
