@@ -70,8 +70,8 @@ See the images below for the fusion 360 generated views. The case snaps together
 The folder [stls] contains the stl printable files you can use. In my case I printed without supports using an X1C, flipping the parts on the appropriate faces to avoid supports.
 ![Water Sensor v2 1](./images/v2-1.png)
 ![Water Sensor v2 2](./images/v2-2.png)
-![Water Sensor v2 1](./images/print1.png)
-![Water Sensor v2 2](./images/print2.png)
+![Water Sensor v2 1](./images/print1.jpg)
+![Water Sensor v2 2](./images/print2.jpg)
 
 
 ### Monitoring Stack Setup
