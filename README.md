@@ -65,7 +65,14 @@ Install the dependencies in order to run the Arduino code.
 
 - Connect your USB-C cable to your computer, and choose the COM Port for your device. Then select the board `LOLIN (WEMOS) D1 R2 & Mini`. 
 
-    
+### Case - 3D Printable
+See the images below for the fusion 360 generated views. The case snaps together snugly so it should hold up well.
+The folder [stls] contains the stl printable files you can use. In my case I printed without supports using an X1C, flipping the parts on the appropriate faces to avoid supports.
+![Water Sensor v2 1](./images/v2-1.png)
+![Water Sensor v2 2](./images/v2-2.png)
+![Water Sensor v2 1](./images/print1.png)
+![Water Sensor v2 2](./images/print2.png)
+
 
 ### Monitoring Stack Setup
 Apply the steps below for your OS. I'm using a Virtualized Ubuntu, but you can lookup steps for any OS you want to run this on. Alternatively, you can throw this project into Kubernetes which I may do later on.
